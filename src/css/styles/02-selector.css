@@ -50,7 +50,6 @@ section {
   padding: 20px;
   margin: 20px;
 }
-
 section::before{
   content: "멋쟁이 사자처럼";
   color: red;
