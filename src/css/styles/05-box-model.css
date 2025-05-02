@@ -1,0 +1,57 @@
+/* 박스모델 */
+/* block box */
+/* border 스타일링 */
+/* padding 여백(안쪽) 스타일링 */
+/* box-sizing 설정 */
+
+.block{
+  box-sizing: border-box;
+  background-color: #ffc;
+  /* border-top-width: 1px;
+  border-right-width: 5px;
+  border-bottom-width: 10px;
+  border-left-width: 15px; */
+  /* border-width: 1px 5px 10px 15px; */ 
+  /* 탑부터 시작하여 시계방향으로 돌아가는 순서로 주석처럼 설정가능 */
+  border: 1px  solid #333;
+  padding : 10px;
+  width: 500px;
+
+  span {
+    background-color: #fcf;
+    display: block;
+    width: 5em;
+  }
+}
+
+/* inline box */
+.like{
+  background-color: #ccc;
+  display: inline;
+  /* inline box는 width와 같은 크기를 직접 지정할 수 없다 */
+  width: 5em;
+}
+
+/* inline-block box */
+.bootcamp{
+  background-color: #cfc;
+  display: inline-block;
+  width: 300px;
+}
+
+/* margin 여백(바깥쪽) 스타일링 */
+.school {
+  border: 1px solid orange;
+  margin: 10px
+  
+  ;
+}
+
+/* overflow 속성을 활용한 스타일링 */
+.techit{
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+  height: 120px;
+  overflow: auto;
+}
