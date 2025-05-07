@@ -1,0 +1,60 @@
+/* css 중첩 */
+/* 일반 CSS */
+.parent {
+  background-color: #f4a261;
+  padding: 20px;
+}
+
+.parent .child {
+  color: white;
+  font-size: 16px;
+}
+
+.parent {
+  background-color: #f4a261;
+  padding: 20px;
+  
+  .child {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.button {
+  color: red;
+
+  &:hover{
+    background-color: yellow;
+  }
+
+  &::before{
+    content: "콘텐츠";
+  }
+}
+
+/* 일반 CSS - 미디어쿼리 */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+/* 중첩 CSS - 미디어쿼리 */
+.container {
+  width: 100%;
+  padding: 20px;
+/* 최소 768px 이상일 때 적용 */
+  @media (min-width:768px ) {
+    width: 750px;
+  }
+}
+
+
+.menu__list .menu__item {
+
+}
