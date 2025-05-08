@@ -36,3 +36,10 @@ h1{
 
  }
 }
+
+/* sticky */
+.frontend {
+  background: var(--mint);
+  position: sticky;
+  top: 0;
+}

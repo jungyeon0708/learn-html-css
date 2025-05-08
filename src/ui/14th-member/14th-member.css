@@ -1,0 +1,55 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+}
+
+body {
+  margin: 50px;
+}
+
+.table-wrapper {
+  block-size: 500px;
+  overflow: scroll;
+
+  table {
+  border: 1px solid var(--black);
+  inline-size: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  }
+  }
+
+.number {
+    inline-size: 10%;
+  }
+.name {
+    inline-size: 20%;
+  }
+.email {
+    inline-size: 30%;
+  }
+.phone {
+    inline-size: 50%;
+  }
+
+th, td {
+    /* border: 1px solid var(--black); */
+    padding: 1rem;
+  }
+td, h1 {
+  text-align: center;
+ }
+
+thead, tfoot {
+  color : var(--white);
+  background : var(--black)
+}
+
+tbody tr:nth-child(even) {
+  background: var(--gray);
+}
+
+thead {
+  position: sticky;
+  top: 0;
+}
