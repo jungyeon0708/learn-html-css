@@ -1,0 +1,51 @@
+body {
+  margin: 50px;
+}
+
+.notification {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 20px;
+  min-inline-size: 260px;
+  margin: 12px ;
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  div {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 4px;
+
+    strong {
+      font-size: 18px;
+      color: #22be61;
+    }
+
+    strong.eat {
+      color: #E3A368;
+    }
+
+    time {
+      font-size: 11px;
+      color: #22be61;
+    }
+
+    time.child {
+      color: #E3A368;
+    }
+
+    p {
+       font-size: 14px;
+      color: #9b9a90;
+      inline-size: 100%;
+    }
+  }
+}

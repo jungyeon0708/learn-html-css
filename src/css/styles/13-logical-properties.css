@@ -1,0 +1,33 @@
+body{
+  margin: 50px;
+}
+
+.lion {
+  writing-mode: horizontal-tb;
+  background: var(--yellow);
+  inline-size: 500px;
+  block-size: 300px;
+}
+
+/* inset */
+.like{
+  background: var(--coral);
+  position: fixed;
+  /* top: 20px;
+  right: 20px;
+  inset-block-start: 40px;
+  inset-inline-end: 40px; */
+  inset: 80px 80px auto auto;
+}
+
+.bootcamp {
+  background: var(--green);
+  text-align: right;
+  text-align: end;
+
+  span {
+    background: var(--coral);
+    float: right;
+    float: inline-end;
+  }
+}
